@@ -1,4 +1,4 @@
-package com.alif.gui;
+package com.fathir.gui;
 import java.awt.event.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 
 public class MainScreen extends  JFrame {
-    private static final String URL = "jdbc:mysql://localhost:3306/latihan";
+    private static final String URL = "jdbc:mysql://localhost:3306/arthur";
     private static final String USER = "root";
     private static final String PASSWORD = "";
     private JPanel PanelMain;
